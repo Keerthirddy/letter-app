@@ -1,0 +1,12 @@
+{
+    "name": "letter-app-deploy",
+    "version": "1.0.0",
+    "description": "Letter app deployment to Netlify",
+    "scripts": {
+      "start": "echo 'Use client and server scripts'",
+      "postinstall": "cd netlify/functions/api && npm install"
+    },
+    "dependencies": {
+      "serverless-http": "^3.2.0"
+    }
+  }
